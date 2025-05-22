@@ -16,10 +16,7 @@ void AMonsieurMonet_Character::TickAim()
 		return;
 	}
 
-    /*  
-    We have decided to use Unreal's Predicting Projectile Trajectory path over our 
-    custom one because of time constraints
-    */
+    //  Unreal's Predicting Projectile Trajectory path 
 	FHitResult Hit;
 	TArray<FVector> OutPathPos;
 	FVector LastPos;
